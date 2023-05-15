@@ -5,7 +5,7 @@ secret_key = "UdUMgHuXN4iAZhugGwRXK6jyJOsW/glg/MNRyLBM"
 }
 
 resource "aws_instance" "example" {
-ami         = "ami-00c39f71452c08778"
+ami         = "ami-0889a44b331db0194" 
 instance_type = "t2.micro"
 key_name      = "jenterra"
 tags     =      {
